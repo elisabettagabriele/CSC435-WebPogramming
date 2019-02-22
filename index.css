@@ -1,0 +1,186 @@
+#initialcontacts{
+    list-style-type: none;
+    position: fixed;
+    top: 100px;
+    left: 80px;
+    line-height: 30px;
+}
+
+
+
+#logo{
+    position: fixed;
+    float: left;
+    opacity: .7;  
+}
+
+
+
+body {
+    margin: 20px;
+    background-image: url(images/b700.jpg);
+    color: #000000;
+    font-family: 'Cormorant Garamond', serif, sans-serif;
+    font-size: 11pt;
+    text-align: center; 
+}
+
+
+
+.prof{
+    padding: 8px;
+    border-style: double;
+    background-color:aliceblue;
+    margin-left: 260px;
+    width: 325px;     
+}
+
+
+
+#name{
+    font-weight: bold;
+    position: relative;
+    text-align: center;
+}
+
+
+
+.intro{
+    font-size: 13pt;
+    text-align: center;
+    padding: 30px;
+    width: 200px;
+    height: 200px;
+    position: absolute;    
+    right: 295px;
+    top: 170px;
+}
+
+
+
+.xnav li {
+    padding: 10px;
+    width: 155px;
+    display: inline-block;
+    background-color: rosybrown;
+    list-style-type:none;
+    text-align: center;  
+}
+
+
+
+h1{
+    margin: auto;
+    padding-bottom: 8px;
+    border-bottom-style: solid;
+    border-bottom-color: gainsboro;
+    margin-left: 5px;
+    margin-right: 5px; 
+    color: black;
+}
+
+
+
+h2{  
+    color: black;   
+    text-decoration: underline;
+}
+
+
+
+a{
+    color: #000000;
+    text-decoration: none;
+}
+
+
+
+a:hover{background: white; color: purple;}
+a.with-slow-transition{ transition: 3s;}
+
+
+
+div{
+    display: block;
+    text-align: center;
+}
+
+
+
+.first {
+    background-color: lavender;
+    margin: auto;
+    left: 235pt;
+    padding: 8px;
+    width: 600px; 
+    border-style: double;
+    border-color: black;
+}
+
+
+
+#Resume{
+    background-color: cornsilk;
+    margin: auto;
+    list-style-type: circle;
+    border-style: double;
+    padding: 8px;
+    width: 600px; 
+}
+
+
+
+.skills{
+    text-align: left;
+}
+
+
+.projlist{
+    background-color: lightsalmon;
+    list-style-type: none;
+    display: inline-block;
+    border-style: double;
+    line-height: 40px;
+    text-align: center; 
+    padding: 15px;
+    list-style-type: circle;
+    width: 600px;   
+    
+}
+
+   
+
+.item{
+    position: absolute;
+    margin-left: 8px;
+    width: 55px;
+    height: 45px;
+    border-style: double;
+    border-color: black;
+}
+
+
+
+li{
+    text-align: left;
+}
+
+  
+
+#Contact{
+    background-color: floralwhite;
+    border-style: double;
+    border-color: black;
+    width: 600px;
+    padding: 25px;
+    margin: auto;     
+}
+
+
+
+#Contact ol li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+
